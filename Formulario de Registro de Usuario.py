@@ -1,0 +1,11 @@
+nombre = input('Introduzca su(s) Nombre(s): ')
+apellido = input('Introduzca su(s) apellido(s): ')
+edad = int (input ('Introduce tu edad: '))
+correo = input('introduce tu dirección de correo electrónico: ')
+telefono = input('Introduce tu numero telefonico: ')
+
+print('Nombre: ' + nombre )
+print ('Apellidos: ' + apellido )
+print ('Tengo: '+ str(edad) + ' años')
+print ('Correo: ' + correo)
+print ('Teléfono: '+ telefono)
