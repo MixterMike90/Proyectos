@@ -19,15 +19,15 @@ print("Su indice de Masa Corporal es: ", round(imc,2))
 #Mensaje de Observación y Recomendación al Usuario
 
 if imc>=0 and imc<=18.99 :
-        print("Su Peso es Bajo, es necesario que visite a un especialista")
+        print("Su Peso es Bajo, es Urgente que visite a un especialista")
 elif imc >= 19 and imc <= 24.99:
-            print ("Su Masa Corporal esta dentro del Peso normal")
+            print ("Felicidades, Su Masa Corporal esta dentro del Peso normal")
 elif imc >=25.00 and imc <= 29.99:
-            print("Usted sufre de Sobrepeso, es necesario que visite a un especialista")
+            print("Usted sufre de Sobrepeso, se recomienda que visite a un especialista")
 elif imc >= 30.00 and imc <= 34.99:
-            print("Usted sufre de Obesidad leve, es necesario que visite a un especialista")
+            print("Usted sufre de Obesidad leve,es necesario que visite a un especialista")
 elif imc >= 35.00 and imc <= 39.99:
-            print("Usted sufre de Obesidad Medía, es necesario que visite a un especialista")
+            print("Usted sufre de Obesidad Medía, se recomienda la observacion pronta de un especialista")
 elif imc > 40:
             print("Usted sufre de Obesidad Mórbida, es urgente que visite a un especialista")
 else :
